@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="REST-Hotel" />
+        <module name="PAS" />
+        <module name="PAS_Security" />
+        <module name="Hotel-App" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hotel-mvc" target="14" />
+      <module name="RESTHOTEL" target="16" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Hotel-App" options="-endorseddirs D:\Hotel-App\target/endorsed" />
+      <module name="PAS" options="-endorseddirs D:\rest\target/endorsed" />
+      <module name="PAS_Security" options="-endorseddirs D:\PAS_Security\target/endorsed" />
+      <module name="REST-Hotel" options="-endorseddirs D:\PAS-Security\target/endorsed" />
+    </option>
+  </component>
+</project>
